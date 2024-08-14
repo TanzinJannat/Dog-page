@@ -1,0 +1,60 @@
+@media (max-width: 691px) {
+    .hero-info{
+        padding-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #4F311E;
+    }
+
+    .hero-info h1 {
+        /* width: 260px; */
+        position: relative;
+        font-family: "Recoleta Bold";
+        font-size: 26px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .hero-info p {
+        /* width: 326px; */
+        text-align: center;
+        font-size: 14px;
+        font-weight:500;
+        line-height: 1.3rem;
+        color: #FFFFFF;
+        opacity: 80%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .hero-info button {
+        /* width: 270px; */
+        height: 50px;
+        border-radius: 6px;
+        border: none;
+        background-color: #D6A73C;
+        font-size: 16px;
+        font-weight: 500;
+        color: #000000;
+    }
+
+    .hero-image {
+        background-color: #4F311E;
+    }
+
+    .dog-img {
+        width: 100%;
+        position: relative;
+        background-position: center;
+    }
+
+}
+
+@media (min-width: 540px) {
+    .hero-info h1 {
+        position: relative;
+        /* font-size: 32px; */
+    }
+}
+
